@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ZMQMessage {
+  string topic = 1;
+  oneof content {
+    int32 payload = 2;
+  }
+}
