@@ -1,19 +1,19 @@
 {
-    "name": "demo-broker-nodejs",
-    "version": "1.0.0",
-    "description": "A demo project using ZeroMQ XPUB/XSUB broker with battery and network services and protobuf",
-    "main": "broker.js",
-    "scripts": {
-      "start": "concurrently \"node broker.js\" \"node battery.js\" \"node network.js\""
-    },
-    "author": "",
-    "license": "MIT",
-    "dependencies": {
-      "protobufjs": "^7.2.3",
-      "zeromq": "^6.0.0"
-    },
-    "devDependencies": {
-      "concurrently": "^8.0.1"
-    }
+  "name": "demo-broker-nodejs",
+  "version": "1.0.0",
+  "description": "A demo project using ZeroMQ XPUB/XSUB broker with battery and network services and protobuf",
+  "main": "broker.js",
+  "scripts": {
+    "start": "node network.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^13.1.0",
+    "protobufjs": "^7.4.0",
+    "zeromq": "^6.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
   }
-  
+}

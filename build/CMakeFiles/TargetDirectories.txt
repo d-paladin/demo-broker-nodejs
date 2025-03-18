@@ -1,0 +1,5 @@
+/home/phil/repos/zmq_tests/build/CMakeFiles/protobuf.dir
+/home/phil/repos/zmq_tests/build/CMakeFiles/pub.dir
+/home/phil/repos/zmq_tests/build/CMakeFiles/sub.dir
+/home/phil/repos/zmq_tests/build/CMakeFiles/edit_cache.dir
+/home/phil/repos/zmq_tests/build/CMakeFiles/rebuild_cache.dir

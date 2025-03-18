@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package drone;
+
+message DroneMode {
+  optional bool is_manual = 1;
+  optional int32 send_mode = 2;
+  optional bool emergency_mode = 3;
+  optional int32 emergency_rth_flags = 4;
+  optional bool emergency_override = 5;
+}

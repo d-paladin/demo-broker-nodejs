@@ -9,7 +9,14 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode"
   ],
+  "runArgs": [
+    "runArgs": [
+      "-p",
+      "8081:3001",
+      "-p",
+      "8082:3002"
+    ],
+  ],
   "postCreateCommand": "npm install",
   "remoteUser": "root"
 }
-  
