@@ -4,7 +4,7 @@ const protobuf = require("protobufjs");
 
 async function runNetwork() {
   // Load the GimbalSpeed protobuf definition
-  const root = await protobuf.load("zmq_tests/proto/drone_mode.proto");
+  const root = await protobuf.load("drone_mode.proto");
   const DroneMode = root.lookupType("DroneMode");
 
   // create a subscriber socket to receive messages
