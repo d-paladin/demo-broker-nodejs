@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/pub.dir/pub.cpp.o CMakeFiles/pub.dir/generated/drone.pb.cc.o -o pub  /usr/lib/x86_64-linux-gnu/libprotobuf.so -lzmq /usr/lib/x86_64-linux-gnu/libprotobuf.so -lzmq 

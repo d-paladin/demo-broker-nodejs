@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-471070f6d7da5b6e29d48326f6a313b6 CMakeFiles/protobuf
-6cbb8fe9455e09185a3a0b99d79f062c generated/drone.pb.cc

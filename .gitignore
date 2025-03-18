@@ -183,5 +183,7 @@ tags
 # Local History for Visual Studio Code
 .history/
 
+firebase-admin-config.json
+
 # Built Visual Studio Code Extensions
 *.vsix
